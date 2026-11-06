@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Dữ liệu chạy thật của server (tài khoản, bảng xếp hạng, bạn bè) - không đưa lên git
+server/users.json
+server/main-account.json
+server/leaderboard.json
+server/friends.json
+
+# Env / secrets
+.env
+.env.*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
